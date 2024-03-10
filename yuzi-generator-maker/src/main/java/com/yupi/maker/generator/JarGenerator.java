@@ -1,4 +1,4 @@
-package com.yupi.maker.generator.main;
+package com.yupi.maker.generator;
 
 import java.io.*;
 import java.util.Map;
