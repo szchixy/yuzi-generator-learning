@@ -31,8 +31,4 @@ public class JarGenerator {
         int exitCode = process.waitFor();
         System.out.println("命令执行结束，退出码：" + exitCode);
     }
-
-    public static void main(String[] args) throws IOException, InterruptedException {
-        doGenerate("~/projects/yuzi-generator-learning/yuzi-generator-maker/generated/acm-template-pro-generator");
-    }
 }
